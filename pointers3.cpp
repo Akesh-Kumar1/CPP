@@ -15,6 +15,7 @@ void print(char *c)
 int main()
 {
     char c[20]="HELLO";
-    print(c);
+    print(c);//pass the adrress of first element of string
+    cout<<c;//print the address of first element of string
     return 0;
 }
